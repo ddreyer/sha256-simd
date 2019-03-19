@@ -13,6 +13,8 @@
 // limitations under the License.
 //
 
+//+build !gccgo
+
 package sha256
 
 func cpuid(op uint32) (eax, ebx, ecx, edx uint32)
